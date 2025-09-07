@@ -26,9 +26,9 @@ jobs:
         unzip 20210522.zip
         cd $GITHUB_WORKSPACE
 
-    - name: Build kernel for lmi with KSU
+    - name: Build kernel for thyme with KSU
       run: |
-        bash build.sh lmi ksu
+        bash build.sh thyme ksu
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
