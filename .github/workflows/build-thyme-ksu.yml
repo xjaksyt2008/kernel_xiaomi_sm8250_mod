@@ -1,4 +1,4 @@
-name: Build lmi Kernel with KSU
+name: Build thyme Kernel with KSU
 
 on:
   workflow_dispatch:
